@@ -1,8 +1,0 @@
-membro(X,[X|_]).
-membro(X,[_|Y]):- membro(X,Y).
-uniao([],[],[]).
-uniao(Lista1,[],Lista1).
-uniao(Lista1, [Cabeca2|Calda2], [Cabeca2|Saida]):-
-    \+(membro(Cabeca2,Lista1)), uniao(Lista1,Calda2,Saida).
-uniao(Lista1, [Cabeca2|Calda2], Saida):-
-    membro(Cabeca2,Lista1), uniao(Lista1,Calda2,Saida).
