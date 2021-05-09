@@ -1,4 +1,4 @@
-Le duas listas L1 e L2, retorna a lista L3 que é a
+%Le duas listas L1 e L2, retorna a lista L3 que é a
 %interseção de L1 e L2.
 intersecao([], _, []).
 
