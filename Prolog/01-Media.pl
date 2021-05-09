@@ -18,3 +18,39 @@ nl,
     maior(X,Y,Z,MM),
     write('Maior: '), write(MM),nl,
     write('Média: '), write(M).
+    
+%Consultas e respostas: ____________________________________________________%
+%Consulta 01
+%nsira o valor de X:
+%4
+%Insira o valor de Y:
+%2
+%Insira o valor de Z:
+%5
+%Maior: 5
+%Média: 3.6666666666666665
+%
+%Consulta 02
+%Insira o valor de X:
+%10
+%Insira o valor de Y:
+%2
+%Insira o valor de Z:
+%11
+%
+%Resposta 02:
+%Maior: 11
+%Média: 7.666666666666667
+%
+%Consulta 03
+%nsira o valor de X:
+%10
+%Insira o valor de Y:
+%1000
+%Insira o valor de Z:
+%100
+%
+%Resposta: 03
+%Maior: 1000
+%Média: 370
+% __________________________________________________________________________%
